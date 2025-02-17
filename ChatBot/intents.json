@@ -1,0 +1,52 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem","como vai"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "Despedida",
+    "patterns":["valeu","tchau","Obrigado","fui","beleza"],
+    "responses": ["Até breve","Falou"]
+  },
+  {
+    "tag": "fase_1",
+    "patterns": ["O que é a Fase 1 do PIPE?","Como funciona a análise de viabilidade técnico-científica no PIPE?","Quanto tempo dura a Fase 1 do PIPE?"],
+    "responses": ["A Fase 1 do PIPE corresponde à Análise de Viabilidade Técnico-Científica da Inovação, com submissão em fluxo contínuo e apoio por até 9 meses."]
+  }, 
+  {
+    "tag": "fase_2",
+    "patterns": ["O que é a Fase 2 do PIPE?","Como funciona o desenvolvimento da proposta de pesquisa no PIPE?","Qual a duração da Fase 2 do PIPE?"],
+    "responses": ["A Fase 2 do PIPE refere-se ao Desenvolvimento da Proposta de Pesquisa, com submissão em fluxo contínuo e apoio por até 24 meses."]
+  },
+  {
+    "tag": "etapas_pipe",
+    "patterns": ["Quais são as etapas do PIPE?", "O PIPE tem diferentes fases?", "Há etapas no programa PIPE?", "Como funciona o processo do PIPE?"],
+    "responses": [ "O programa PIPE tem várias fases: Fase 1 (verificação da viabilidade técnica), Fase 2 (execução da pesquisa), PIPE Invest (aceleração para chegada ao mercado) e Fase 3 (desenvolvimento comercial e industrial)."]
+  },
+  {
+    "tag": "fase_3",
+    "patterns": ["O que é a Fase 3 do PIPE?","O que ocorre na aplicação dos resultados no PIPE?","Qual o objetivo da Fase 3 do PIPE?"],
+    "responses": ["A Fase 3 do PIPE foca na aplicação dos resultados visando a comercialização do produto ou processo inovador e o desenvolvimento de produção em escala."]
+  },
+  {
+    "tag": "pipe_invest",
+    "patterns": ["O que é o PIPE Invest?","Como funciona o PIPE Invest?"],
+    "responses": ["O PIPE Invest apoia empresas financiadas pelo PIPE nas Fases 1 e 2 que tenham iniciado o desenvolvimento de processos ou produtos com grande potencial de sucesso e que possuam o interesse de um investidor. Para pleitear recursos suplementares, a empresa deve comprovar um aporte superior a R$ 100 mil de um investidor, podendo receber um valor idêntico da FAPESP, limitado a um teto de R$ 1,5 milhão por um período de até 24 meses."]
+  },
+  {
+    "tag": "pipe_start",
+    "patterns": ["O que é o PIPE Start?","Quais empresas podem participar do PIPE Start?","Qual o objetivo do PIPE Start?"],
+    "responses": ["O PIPE Start é um programa da FAPESP em parceria com o Sebrae que apoia empresas que desejam validar preliminarmente seus desafios tecnológicos e seus modelos de negócios para acessar mercados. Ele permite a validação do negócio junto aos atores do ambiente externo e a realização da prototipagem inicial das soluções tecnológicas."]
+  },
+  {
+    "tag": "requisitos_projetos",
+    "patterns": ["Quais são os requisitos para submissão de projetos no PIPE?","Quem pode submeter projetos ao PIPE?","Preciso ter doutorado para submeter um projeto ao PIPE?"],
+    "responses": ["Os projetos devem ser submetidos por pesquisadores. A titulação acadêmica não é um requisito essencial, sendo mais importante a experiência profissional e capacitação técnica. Caso a empresa esteja em fase de constituição, ela deve estar formalmente aberta quando a proposta for aceita."]
+  },
+  {
+    "tag": "propriedade_intelectual",
+    "patterns": ["Quem detém a propriedade intelectual dos projetos financiados pelo PIPE?","A FAPESP exige compartilhamento da propriedade intelectual dos projetos do PIPE?","Os direitos dos resultados das pesquisas do PIPE pertencem a quem?"],
+    "responses": ["As empresas apoiadas pelo PIPE detêm exclusivamente os direitos legais de propriedade intelectual dos resultados das pesquisas financiadas, sem a exigência de compartilhamento com a FAPESP."]
+  }
+  ]
+}
+
