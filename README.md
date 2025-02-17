@@ -1,2 +1,2 @@
-# chat_bot
-modelo de chat bot 
+# chatbot
+modelo de chatbot 
